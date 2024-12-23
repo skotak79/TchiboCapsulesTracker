@@ -3,26 +3,107 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0D6D712AEAE98200FA4E29 /* HealthAuthorizationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */; };
 		2E183E022ADDBBDF00F42907 /* CapsuleTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */; };
-		2E183E042ADDBBDF00F42907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E032ADDBBDF00F42907 /* ContentView.swift */; };
 		2E183E062ADDBBE000F42907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E183E052ADDBBE000F42907 /* Assets.xcassets */; };
 		2E183E092ADDBBE000F42907 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E183E082ADDBBE000F42907 /* Preview Assets.xcassets */; };
+		2E4638922D162A79008E8BCA /* LogCapsuleServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4638902D162A79008E8BCA /* LogCapsuleServiceProtocol.swift */; };
+		2E4638932D162A79008E8BCA /* LogCapsuleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46388F2D162A79008E8BCA /* LogCapsuleService.swift */; };
+		2E508A662CEC8DBD00961769 /* ContainersProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E508A652CEC8DBD00961769 /* ContainersProviderProtocol.swift */; };
+		2E508A682CEC8E0E00961769 /* PreviewContainersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E508A672CEC8E0E00961769 /* PreviewContainersProvider.swift */; };
+		2E59623A2C58001D00BC1C1A /* ContainersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55C9F2B823B8300850B33 /* ContainersList.swift */; };
+		2E65DDA92D1A10DC00C4B053 /* HealthClientSendableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65DDA82D1A10DC00C4B053 /* HealthClientSendableProtocol.swift */; };
+		2E65DDAC2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E65DDAB2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift */; };
+		2E968C7F2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E968C7E2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift */; };
+		2E968C812D18CD4C00F3A026 /* CapsuleContainerArray+filteredContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E968C802D18CD4C00F3A026 /* CapsuleContainerArray+filteredContainers.swift */; };
+		2E968C832D18CDA500F3A026 /* CapsuleGrouping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E968C822D18CDA500F3A026 /* CapsuleGrouping.swift */; };
+		2EC92D782C56549100C8E893 /* ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E172ADDBC5200F42907 /* ToastModifier.swift */; };
+		2ED46C202C49027800DC8914 /* ContainersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E1D2ADDBC5200F42907 /* ContainersProvider.swift */; };
+		2EDC12EF2CEB96DC0005A781 /* LogCapsuleServicePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC12EE2CEB96DA0005A781 /* LogCapsuleServicePreview.swift */; };
+		2EE0B1542CEF375900F4468E /* CapsulePreparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0B1532CEF375900F4468E /* CapsulePreparation.swift */; };
+		2EE0B1562CEF379500F4468E /* CapsuleFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0B1552CEF379500F4468E /* CapsuleFeature.swift */; };
+		2EE0B1572CEF387E00F4468E /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E1E2ADDBC5300F42907 /* RatingView.swift */; };
+		2EE845992C7F47F50000B9F1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E122ADDBC5200F42907 /* DetailView.swift */; };
+		2EEA36CA2AF7CAD700B2BEAE /* CapsuleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA36C92AF7CAD700B2BEAE /* CapsuleContainer.swift */; };
+		2EF2727F2B9485BC00BD1703 /* CapsuleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECA38F92AF6D6A7004541E2 /* CapsuleModel.swift */; };
+		2EF272802B949B0400BD1703 /* CapsuleModel+all.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E405C3A2B09189D0081F710 /* CapsuleModel+all.swift */; };
+		2EF272852B94A52B00BD1703 /* QuantityStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF272842B94A52B00BD1703 /* QuantityStore.swift */; };
+		2EF272892B94A60F00BD1703 /* QuantityStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF272882B94A60F00BD1703 /* QuantityStoreProtocol.swift */; };
+		2EF55D612C4BB23F00060804 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E342ADDBF5C00F42907 /* LogView.swift */; };
+		2EFAD33A2B0A3C0800B8D450 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EFAD3392B0A3C0800B8D450 /* Launch Screen.storyboard */; };
+		2EFB79862C67B4E500123DA5 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E162ADDBC5200F42907 /* FlowLayout.swift */; };
+		2EFECC9E2C523B940055B678 /* ContainerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8665FF2AE5A2A10017F2B1 /* ContainerSection.swift */; };
+		2EFECCA32C52436F0055B678 /* CapsuleQuantityPersisted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF272862B94A60700BD1703 /* CapsuleQuantityPersisted.swift */; };
+		2EFECCA52C5247430055B678 /* HealthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8665FD2AE5A2130017F2B1 /* HealthClient.swift */; };
+		2EFECCA62C5267790055B678 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55CA02B823B8300850B33 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2EC022CC2CADD53A002C9B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E183DF62ADDBBDF00F42907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E183DFD2ADDBBDF00F42907;
+			remoteInfo = CapsuleTracker;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAuthorizationButton.swift; sourceTree = "<group>"; };
 		2E183DFE2ADDBBDF00F42907 /* CapsuleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsuleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTrackerApp.swift; sourceTree = "<group>"; };
-		2E183E032ADDBBDF00F42907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E183E052ADDBBE000F42907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E183E082ADDBBE000F42907 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E183E122ADDBC5200F42907 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = CapsuleTracker/Detail/DetailView.swift; sourceTree = SOURCE_ROOT; };
+		2E183E162ADDBC5200F42907 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlowLayout.swift; path = CapsuleTracker/ContainersList/FlowLayout.swift; sourceTree = SOURCE_ROOT; };
+		2E183E172ADDBC5200F42907 /* ToastModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastModifier.swift; path = CapsuleTracker/Toast/ToastModifier.swift; sourceTree = SOURCE_ROOT; };
+		2E183E1D2ADDBC5200F42907 /* ContainersProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainersProvider.swift; path = CapsuleTracker/CapsuleKit/Container/ContainersProvider.swift; sourceTree = SOURCE_ROOT; };
+		2E183E1E2ADDBC5300F42907 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = CapsuleTracker/Detail/RatingView.swift; sourceTree = SOURCE_ROOT; };
+		2E183E342ADDBF5C00F42907 /* LogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		2E405C3A2B09189D0081F710 /* CapsuleModel+all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CapsuleModel+all.swift"; sourceTree = "<group>"; };
+		2E46388F2D162A79008E8BCA /* LogCapsuleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCapsuleService.swift; sourceTree = "<group>"; };
+		2E4638902D162A79008E8BCA /* LogCapsuleServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCapsuleServiceProtocol.swift; sourceTree = "<group>"; };
+		2E508A652CEC8DBD00961769 /* ContainersProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersProviderProtocol.swift; sourceTree = "<group>"; };
+		2E508A672CEC8E0E00961769 /* PreviewContainersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainersProvider.swift; sourceTree = "<group>"; };
+		2E65DDA82D1A10DC00C4B053 /* HealthClientSendableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthClientSendableProtocol.swift; sourceTree = "<group>"; };
+		2E65DDAB2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitAuthorizedInfo.swift; sourceTree = "<group>"; };
+		2E8665FD2AE5A2130017F2B1 /* HealthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthClient.swift; sourceTree = "<group>"; };
+		2E8665FF2AE5A2A10017F2B1 /* ContainerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSection.swift; sourceTree = "<group>"; };
+		2E968C7E2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersBindingProviderProtocol.swift; sourceTree = "<group>"; };
+		2E968C802D18CD4C00F3A026 /* CapsuleContainerArray+filteredContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CapsuleContainerArray+filteredContainers.swift"; sourceTree = "<group>"; };
+		2E968C822D18CDA500F3A026 /* CapsuleGrouping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleGrouping.swift; sourceTree = "<group>"; };
+		2EC022C82CADD53A002C9B49 /* CapsuleTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapsuleTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECA38F92AF6D6A7004541E2 /* CapsuleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleModel.swift; sourceTree = "<group>"; };
+		2EDC12EE2CEB96DA0005A781 /* LogCapsuleServicePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCapsuleServicePreview.swift; sourceTree = "<group>"; };
+		2EE0B1532CEF375900F4468E /* CapsulePreparation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulePreparation.swift; sourceTree = "<group>"; };
+		2EE0B1552CEF379500F4468E /* CapsuleFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleFeature.swift; sourceTree = "<group>"; };
+		2EEA36C92AF7CAD700B2BEAE /* CapsuleContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleContainer.swift; sourceTree = "<group>"; };
+		2EEAC4342AE191FE005429E4 /* CapsuleTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapsuleTracker.entitlements; sourceTree = "<group>"; };
+		2EF272842B94A52B00BD1703 /* QuantityStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityStore.swift; sourceTree = "<group>"; };
+		2EF272862B94A60700BD1703 /* CapsuleQuantityPersisted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleQuantityPersisted.swift; sourceTree = "<group>"; };
+		2EF272882B94A60F00BD1703 /* QuantityStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityStoreProtocol.swift; sourceTree = "<group>"; };
+		2EF55C9F2B823B8300850B33 /* ContainersList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainersList.swift; sourceTree = "<group>"; };
+		2EF55CA02B823B8300850B33 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		2EFAD3392B0A3C0800B8D450 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EC022C92CADD53A002C9B49 /* CapsuleTrackerTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CapsuleTrackerTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2E183DFB2ADDBBDF00F42907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC022C52CADD53A002C9B49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				2E183E002ADDBBDF00F42907 /* CapsuleTracker */,
+				2EC022C92CADD53A002C9B49 /* CapsuleTrackerTests */,
 				2E183DFF2ADDBBDF00F42907 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2E183DFE2ADDBBDF00F42907 /* CapsuleTracker.app */,
+				2EC022C82CADD53A002C9B49 /* CapsuleTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +134,16 @@
 		2E183E002ADDBBDF00F42907 /* CapsuleTracker */ = {
 			isa = PBXGroup;
 			children = (
-				2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */,
-				2E183E032ADDBBDF00F42907 /* ContentView.swift */,
+				2EEAC4342AE191FE005429E4 /* CapsuleTracker.entitlements */,
+				2E18A7E02C8C67AE000B81BD /* Toast */,
+				2E183E392ADDBF6D00F42907 /* Detail */,
+				2EF2727E2B94856900BD1703 /* CapsuleKit */,
+				2E4638952D162C3B008E8BCA /* ContainersList */,
+				2E968C872D18DCC300F3A026 /* LogView */,
+				2E65DDAA2D1A12E700C4B053 /* HealthClient */,
 				2E183E052ADDBBE000F42907 /* Assets.xcassets */,
+				2EFAD3392B0A3C0800B8D450 /* Launch Screen.storyboard */,
+				2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */,
 				2E183E072ADDBBE000F42907 /* Preview Content */,
 			);
 			path = CapsuleTracker;
@@ -62,9 +152,112 @@
 		2E183E072ADDBBE000F42907 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2EDC12EE2CEB96DA0005A781 /* LogCapsuleServicePreview.swift */,
+				2E508A672CEC8E0E00961769 /* PreviewContainersProvider.swift */,
 				2E183E082ADDBBE000F42907 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E183E392ADDBF6D00F42907 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2E183E122ADDBC5200F42907 /* DetailView.swift */,
+				2E183E1E2ADDBC5300F42907 /* RatingView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		2E18A7E02C8C67AE000B81BD /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				2E183E172ADDBC5200F42907 /* ToastModifier.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		2E4638912D162A79008E8BCA /* LogCapsuleService */ = {
+			isa = PBXGroup;
+			children = (
+				2E968C7E2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift */,
+				2E46388F2D162A79008E8BCA /* LogCapsuleService.swift */,
+				2E4638902D162A79008E8BCA /* LogCapsuleServiceProtocol.swift */,
+			);
+			path = LogCapsuleService;
+			sourceTree = "<group>";
+		};
+		2E4638952D162C3B008E8BCA /* ContainersList */ = {
+			isa = PBXGroup;
+			children = (
+				2E968C822D18CDA500F3A026 /* CapsuleGrouping.swift */,
+				2E968C802D18CD4C00F3A026 /* CapsuleContainerArray+filteredContainers.swift */,
+				2E508A652CEC8DBD00961769 /* ContainersProviderProtocol.swift */,
+				2EF55C9F2B823B8300850B33 /* ContainersList.swift */,
+				2E8665FF2AE5A2A10017F2B1 /* ContainerSection.swift */,
+				2EF55CA02B823B8300850B33 /* RowView.swift */,
+				2E183E162ADDBC5200F42907 /* FlowLayout.swift */,
+			);
+			path = ContainersList;
+			sourceTree = "<group>";
+		};
+		2E65DDAA2D1A12E700C4B053 /* HealthClient */ = {
+			isa = PBXGroup;
+			children = (
+				2E8665FD2AE5A2130017F2B1 /* HealthClient.swift */,
+				2E65DDA82D1A10DC00C4B053 /* HealthClientSendableProtocol.swift */,
+			);
+			path = HealthClient;
+			sourceTree = "<group>";
+		};
+		2E968C842D18DC0E00F3A026 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				2EEA36C92AF7CAD700B2BEAE /* CapsuleContainer.swift */,
+				2E183E1D2ADDBC5200F42907 /* ContainersProvider.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		2E968C852D18DC1500F3A026 /* Capsule */ = {
+			isa = PBXGroup;
+			children = (
+				2ECA38F92AF6D6A7004541E2 /* CapsuleModel.swift */,
+				2E405C3A2B09189D0081F710 /* CapsuleModel+all.swift */,
+				2EE0B1532CEF375900F4468E /* CapsulePreparation.swift */,
+				2EE0B1552CEF379500F4468E /* CapsuleFeature.swift */,
+			);
+			path = Capsule;
+			sourceTree = "<group>";
+		};
+		2E968C862D18DC7000F3A026 /* QuantityStore */ = {
+			isa = PBXGroup;
+			children = (
+				2EF272862B94A60700BD1703 /* CapsuleQuantityPersisted.swift */,
+				2EF272882B94A60F00BD1703 /* QuantityStoreProtocol.swift */,
+				2EF272842B94A52B00BD1703 /* QuantityStore.swift */,
+			);
+			path = QuantityStore;
+			sourceTree = "<group>";
+		};
+		2E968C872D18DCC300F3A026 /* LogView */ = {
+			isa = PBXGroup;
+			children = (
+				2E4638912D162A79008E8BCA /* LogCapsuleService */,
+				2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */,
+				2E65DDAB2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift */,
+				2E183E342ADDBF5C00F42907 /* LogView.swift */,
+			);
+			path = LogView;
+			sourceTree = "<group>";
+		};
+		2EF2727E2B94856900BD1703 /* CapsuleKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E968C842D18DC0E00F3A026 /* Container */,
+				2E968C852D18DC1500F3A026 /* Capsule */,
+				2E968C862D18DC7000F3A026 /* QuantityStore */,
+			);
+			path = CapsuleKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,11 +274,35 @@
 			buildRules = (
 			);
 			dependencies = (
+				2E4638A02D16378B008E8BCA /* PBXTargetDependency */,
 			);
 			name = CapsuleTracker;
 			productName = CapsuleTracker;
 			productReference = 2E183DFE2ADDBBDF00F42907 /* CapsuleTracker.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2EC022C72CADD53A002C9B49 /* CapsuleTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC022CE2CADD53A002C9B49 /* Build configuration list for PBXNativeTarget "CapsuleTrackerTests" */;
+			buildPhases = (
+				2EC022C42CADD53A002C9B49 /* Sources */,
+				2EC022C52CADD53A002C9B49 /* Frameworks */,
+				2EC022C62CADD53A002C9B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EC022CD2CADD53A002C9B49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EC022C92CADD53A002C9B49 /* CapsuleTrackerTests */,
+			);
+			name = CapsuleTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = CapsuleTrackerTests;
+			productReference = 2EC022C82CADD53A002C9B49 /* CapsuleTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,11 +311,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					2E183DFD2ADDBBDF00F42907 = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					2EC022C72CADD53A002C9B49 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2E183DFD2ADDBBDF00F42907;
 					};
 				};
 			};
@@ -111,11 +332,15 @@
 				Base,
 			);
 			mainGroup = 2E183DF52ADDBBDF00F42907;
+			packageReferences = (
+				2E46389B2D16315C008E8BCA /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 2E183DFF2ADDBBDF00F42907 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2E183DFD2ADDBBDF00F42907 /* CapsuleTracker */,
+				2EC022C72CADD53A002C9B49 /* CapsuleTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +350,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EFAD33A2B0A3C0800B8D450 /* Launch Screen.storyboard in Resources */,
 				2E183E092ADDBBE000F42907 /* Preview Assets.xcassets in Resources */,
 				2E183E062ADDBBE000F42907 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC022C62CADD53A002C9B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +370,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E183E042ADDBBDF00F42907 /* ContentView.swift in Sources */,
+				2E508A662CEC8DBD00961769 /* ContainersProviderProtocol.swift in Sources */,
+				2E0D6D712AEAE98200FA4E29 /* HealthAuthorizationButton.swift in Sources */,
+				2EE0B1572CEF387E00F4468E /* RatingView.swift in Sources */,
+				2EF55D612C4BB23F00060804 /* LogView.swift in Sources */,
+				2EE845992C7F47F50000B9F1 /* DetailView.swift in Sources */,
+				2ED46C202C49027800DC8914 /* ContainersProvider.swift in Sources */,
+				2EFECCA32C52436F0055B678 /* CapsuleQuantityPersisted.swift in Sources */,
+				2EF2727F2B9485BC00BD1703 /* CapsuleModel.swift in Sources */,
+				2E968C812D18CD4C00F3A026 /* CapsuleContainerArray+filteredContainers.swift in Sources */,
+				2EEA36CA2AF7CAD700B2BEAE /* CapsuleContainer.swift in Sources */,
+				2EFECCA52C5247430055B678 /* HealthClient.swift in Sources */,
+				2EE0B1542CEF375900F4468E /* CapsulePreparation.swift in Sources */,
+				2EF272852B94A52B00BD1703 /* QuantityStore.swift in Sources */,
+				2E508A682CEC8E0E00961769 /* PreviewContainersProvider.swift in Sources */,
+				2EFECCA62C5267790055B678 /* RowView.swift in Sources */,
+				2E968C7F2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift in Sources */,
+				2EFB79862C67B4E500123DA5 /* FlowLayout.swift in Sources */,
+				2E59623A2C58001D00BC1C1A /* ContainersList.swift in Sources */,
+				2E65DDAC2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift in Sources */,
+				2EE0B1562CEF379500F4468E /* CapsuleFeature.swift in Sources */,
+				2E65DDA92D1A10DC00C4B053 /* HealthClientSendableProtocol.swift in Sources */,
+				2EDC12EF2CEB96DC0005A781 /* LogCapsuleServicePreview.swift in Sources */,
+				2EF272802B949B0400BD1703 /* CapsuleModel+all.swift in Sources */,
+				2EF272892B94A60F00BD1703 /* QuantityStoreProtocol.swift in Sources */,
 				2E183E022ADDBBDF00F42907 /* CapsuleTrackerApp.swift in Sources */,
+				2EFECC9E2C523B940055B678 /* ContainerSection.swift in Sources */,
+				2E968C832D18CDA500F3A026 /* CapsuleGrouping.swift in Sources */,
+				2E4638922D162A79008E8BCA /* LogCapsuleServiceProtocol.swift in Sources */,
+				2E4638932D162A79008E8BCA /* LogCapsuleService.swift in Sources */,
+				2EC92D782C56549100C8E893 /* ToastModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC022C42CADD53A002C9B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4638A02D16378B008E8BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 2E46389F2D16378B008E8BCA /* SwiftLintBuildToolPlugin */;
+		};
+		2EC022CD2CADD53A002C9B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E183DFD2ADDBBDF00F42907 /* CapsuleTracker */;
+			targetProxy = 2EC022CC2CADD53A002C9B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E183E0A2ADDBBE000F42907 /* Debug */ = {
@@ -197,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -205,6 +485,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
 			};
 			name = Debug;
 		};
@@ -254,12 +535,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -269,17 +551,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapsuleTracker/CapsuleTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CapsuleTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = VHNJTY3QXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Capsules;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplication needs an access to the health data to display coffeine information ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplication needs an access to the health data to update coffeine information ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +576,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojtekskotak.CapsuleTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,17 +591,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapsuleTracker/CapsuleTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CapsuleTracker/Preview Content\"";
 				DEVELOPMENT_TEAM = VHNJTY3QXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Capsules;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Aplication needs an access to the health data to display coffeine information ";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Aplication needs an access to the health data to update coffeine information ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +616,51 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wojtekskotak.CapsuleTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2EC022CF2CADD53A002C9B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHNJTY3QXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtekskotak.CapsuleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsuleTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapsuleTracker";
+			};
+			name = Debug;
+		};
+		2EC022D02CADD53A002C9B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VHNJTY3QXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wojtekskotak.CapsuleTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapsuleTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapsuleTracker";
 			};
 			name = Release;
 		};
@@ -343,7 +685,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2EC022CE2CADD53A002C9B49 /* Build configuration list for PBXNativeTarget "CapsuleTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC022CF2CADD53A002C9B49 /* Debug */,
+				2EC022D02CADD53A002C9B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E46389B2D16315C008E8BCA /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E46389F2D16378B008E8BCA /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E46389B2D16315C008E8BCA /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E183DF62ADDBBDF00F42907 /* Project object */;
 }
