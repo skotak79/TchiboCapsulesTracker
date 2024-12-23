@@ -71,6 +71,12 @@
 		2E508A672CEC8E0E00961769 /* PreviewContainersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainersProvider.swift; sourceTree = "<group>"; };
 		2E65DDA82D1A10DC00C4B053 /* HealthClientSendableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthClientSendableProtocol.swift; sourceTree = "<group>"; };
 		2E65DDAB2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitAuthorizedInfo.swift; sourceTree = "<group>"; };
+		2E65DDC02D1A245B00C4B053 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2E65DDC12D1A245B00C4B053 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2E65DDC22D1A245B00C4B053 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2E65DDC32D1A245B00C4B053 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2E65DDC42D1A245B00C4B053 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2E65DDC52D1A245B00C4B053 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		2E8665FD2AE5A2130017F2B1 /* HealthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthClient.swift; sourceTree = "<group>"; };
 		2E8665FF2AE5A2A10017F2B1 /* ContainerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSection.swift; sourceTree = "<group>"; };
 		2E968C7E2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersBindingProviderProtocol.swift; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 		2E183DF52ADDBBDF00F42907 = {
 			isa = PBXGroup;
 			children = (
+				2E65DDBF2D1A243E00C4B053 /* Screens */,
 				2E183E002ADDBBDF00F42907 /* CapsuleTracker */,
 				2EC022C92CADD53A002C9B49 /* CapsuleTrackerTests */,
 				2E183DFF2ADDBBDF00F42907 /* Products */,
@@ -207,6 +214,19 @@
 				2E65DDA82D1A10DC00C4B053 /* HealthClientSendableProtocol.swift */,
 			);
 			path = HealthClient;
+			sourceTree = "<group>";
+		};
+		2E65DDBF2D1A243E00C4B053 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2E65DDC02D1A245B00C4B053 /* 1.png */,
+				2E65DDC12D1A245B00C4B053 /* 2.png */,
+				2E65DDC22D1A245B00C4B053 /* 3.png */,
+				2E65DDC32D1A245B00C4B053 /* 4.png */,
+				2E65DDC42D1A245B00C4B053 /* 5.png */,
+				2E65DDC52D1A245B00C4B053 /* 6.png */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		2E968C842D18DC0E00F3A026 /* Container */ = {
