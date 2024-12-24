@@ -1,5 +1,3 @@
-# TchiboCapsulesTracker
-
 ## Tchibo Capsules Tracker Demo (iOS)
 UI: SwiftUI<br>
 iOS: 18
