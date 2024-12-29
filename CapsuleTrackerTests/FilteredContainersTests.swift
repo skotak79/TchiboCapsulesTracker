@@ -23,6 +23,7 @@ struct FilteredContainersTests {
         containers.append(CapsuleContainer(capsule: .buttertoffeeEspresso, quantity: 1))
 
         let filtered = containers.filteredContainers(searchText: "bar")
+
         #expect(filtered.count == 1)
     }
 
@@ -32,7 +33,7 @@ struct FilteredContainersTests {
         containers.append(CapsuleContainer(capsule: .baristaCrema, quantity: 1))
         containers.append(CapsuleContainer(capsule: .buttertoffeeEspresso, quantity: 0))
         let filtered = containers.filteredContainers(showOwned: true)
+
         #expect(filtered.count == 1)
     }
-
 }

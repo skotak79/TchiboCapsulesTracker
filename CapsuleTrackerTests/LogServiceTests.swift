@@ -67,7 +67,6 @@ struct LogServiceTests {
         sut.askIfHealthAuthorized()
 
         #expect(sut.isHealthAccessAuthorized == true)
-
     }
 
     @MainActor

@@ -73,6 +73,7 @@ struct MainModelTests {
         let updated = bindined!.wrappedValue.increaseQuantityByOne()
         bindined!.wrappedValue = updated
         await sut.saveAll()
+
         await #expect(quantityStoreMock.quantities.count == 1)
     }
 
@@ -88,8 +89,7 @@ struct MainModelTests {
                 preparation: .crema,
                 capsuleImageName: ""),
             quantity: 0)
+
         #expect(sut.getBindingOfContainer(containerToFind.id) == nil)
     }
-
-
 }
