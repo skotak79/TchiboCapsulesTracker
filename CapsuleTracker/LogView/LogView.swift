@@ -8,11 +8,13 @@ struct LogView: View {
     let capsule: CapsuleModel
     var model: any LogCapsuleServiceProtocol
 
-    @State private var selectedType: CoffeeineTypeModel = .espresso
+    @State private var selectedType: LogPreparationType = .espresso
+
+    let calculator = CaffeineCalcuator()
 
     private var estimatedCaffeineAmount: Int {
-        guard !capsule.isDecaff else { return coffeineAmountForDecaffInMiligramms }
-        return selectedType.amountOfCoffeineInMiligrams
+        return calculator.calculateCaffeineAmount(isDecaff: capsule.isDecaff,
+                                                  with: selectedType)
     }
 
     var body: some View {
@@ -70,7 +72,7 @@ private extension LogView {
                 .font(.title2)
                 .bold()
             Picker("Picker", selection: $selectedType, content: {
-                ForEach(CoffeeineTypeModel.allCases, id: \.rawValue) { model in
+                ForEach(LogPreparationType.allCases, id: \.rawValue) { model in
                     Text(model.desc)
                         .tag(model)
                 }
@@ -115,7 +117,7 @@ private extension LogView {
 private struct TestBaseBrewView: View {
     @State var isPresentingSheet: Bool = false
     let authorized: Bool
-    @State var capsuleContainer = CapsuleContainer(capsule: .espressoBrasil, quantity: 2)
+    @State var capsuleContainer = CapsuleContainer(capsule: .decaff, quantity: 2)
     var body: some View {
         Button(action: { isPresentingSheet.toggle() }, label: {
             Text("Show Sheet")
@@ -143,17 +145,9 @@ private struct TestBaseBrewView: View {
 })
 
 extension LogView {
-    enum CoffeeineTypeModel: String, CaseIterable, Identifiable {
+    enum LogPreparationType: String, CaseIterable, Identifiable {
         var id: String { rawValue }
         case espresso, regular
-        var amountOfCoffeineInMiligrams: Int {
-            switch self {
-            case .espresso:
-                63
-            case .regular:
-                95
-            }
-        }
 
         var desc: String {
             rawValue.capitalized

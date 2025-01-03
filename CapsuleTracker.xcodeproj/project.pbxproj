@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E0D6D712AEAE98200FA4E29 /* HealthAuthorizationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */; };
+		2E126B872D28595600006889 /* CaffeineCalcuator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E126B862D28595600006889 /* CaffeineCalcuator.swift */; };
 		2E183E022ADDBBDF00F42907 /* CapsuleTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */; };
 		2E183E062ADDBBE000F42907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E183E052ADDBBE000F42907 /* Assets.xcassets */; };
 		2E183E092ADDBBE000F42907 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E183E082ADDBBE000F42907 /* Preview Assets.xcassets */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAuthorizationButton.swift; sourceTree = "<group>"; };
+		2E126B862D28595600006889 /* CaffeineCalcuator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineCalcuator.swift; sourceTree = "<group>"; };
 		2E183DFE2ADDBBDF00F42907 /* CapsuleTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapsuleTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E183E012ADDBBDF00F42907 /* CapsuleTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTrackerApp.swift; sourceTree = "<group>"; };
 		2E183E052ADDBBE000F42907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				2E0D6D702AEAE98200FA4E29 /* HealthAuthorizationButton.swift */,
 				2E65DDAB2D1A13D900C4B053 /* HealthKitAuthorizedInfo.swift */,
 				2E183E342ADDBF5C00F42907 /* LogView.swift */,
+				2E126B862D28595600006889 /* CaffeineCalcuator.swift */,
 			);
 			path = LogView;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				2EF272852B94A52B00BD1703 /* QuantityStore.swift in Sources */,
 				2E508A682CEC8E0E00961769 /* PreviewContainersProvider.swift in Sources */,
 				2EFECCA62C5267790055B678 /* RowView.swift in Sources */,
+				2E126B872D28595600006889 /* CaffeineCalcuator.swift in Sources */,
 				2E968C7F2D18C84E00F3A026 /* ContainersBindingProviderProtocol.swift in Sources */,
 				2EFB79862C67B4E500123DA5 /* FlowLayout.swift in Sources */,
 				2E59623A2C58001D00BC1C1A /* ContainersList.swift in Sources */,

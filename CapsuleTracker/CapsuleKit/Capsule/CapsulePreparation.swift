@@ -16,5 +16,14 @@ enum CapsulePreparation: String, CaseIterable, Identifiable {
         }
     }
 
+    var amountOfCoffeineInMiligrams: Int {
+        switch self {
+        case .espresso:
+            63
+        default:
+            95
+        }
+    }
+
     var id: String { name }
 }
